@@ -20,3 +20,6 @@ Till now I have created two tools in this repo:
 	- `TulingRobotReplyingMachine` : Handle all messages sent to you and automatically reply for you.
   - Written in python2.
   - Passed testing in Linux.
+
+## Samples
+**Samples for each toolset are included in corresponding folders.**

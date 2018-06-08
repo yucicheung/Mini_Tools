@@ -27,13 +27,15 @@ Code are written in *Ubuntu16.04LTS*.
   - Run `python msgSenderOnTimeToChatroom.py` in terminal.
   - Scan your QR code to log in.
   - Message got sent like below.
-![msgSender]()
+
+![msgSender](SamplePics/chatroomSender.jpg)
 
 - for `TulingRobot.py`, the robot will take your place to reply your messages
   - Run `python TulingRobot.py` in terminal.
   - Scan QR code to log in.
   - Now the robot will handle your message replying.
-![tulingRobot]()
+
+![tulingRobot](SamplePics/robot.jpg)
 
 ## To-do list
 
@@ -41,4 +43,5 @@ Code are written in *Ubuntu16.04LTS*.
 - [x] Send predefined message to specified chatroom.
 - [ ] Complete sending-on-time function for `msgSenderOnTimeToChatroom.py`.
 - [ ] Make robot more intelligent, extented to open music player by sending messages using NeteaseMusic API.
-
+- [ ] Compatile to more file formats like pictures and voice message.
+- [ ] **Save the files sent from `filehelper` automatically.**
