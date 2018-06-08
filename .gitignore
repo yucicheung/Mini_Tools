@@ -1,2 +1,4 @@
 .idea/
-.pyc
+*.pyc
+itchat.pkl
+QR.png
