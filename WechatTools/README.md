@@ -7,8 +7,7 @@ Gotta remind our team members to submmit logs on every two days, but I was tired
 ## Files Structure and functions
 
 Code files in this folder include:
-  - `schedulerTest.py`
-  - `msgSenderOnTimeToChatroom.py`
+  - `onTimeMsgSenderToChatroom.py`
 	- If you want to send your message to specified chatroom in wechat,modify and run this file.
   - `TulingRobot.py`
 	- If you want to set auto-reply for your wechat account, modify and run this file.
@@ -20,11 +19,13 @@ Code are written in *Ubuntu16.04LTS*.
 - [itchat](https://github.com/littlecodersh/ItChat)
   - BTW, this toolset is super cool and very newbie-friendly, so I do recommend you to design your own fun toys using it.
 - Apscheduler
+  - Scheduler API offered.
 
 ## Usage & Samples
 
-- for `msgSenderOnTimeToChatroom.py`, your PC will send predefined words automatically
-  - Run `python msgSenderOnTimeToChatroom.py` in terminal.
+- For `onTimeMsgSenderToChatroom.py`, your PC will send predefined words automatically according to predefined time.
+  - Modify `roomName`,`context`,`time` in `__init__` function defined in class.
+  - Run `python onTimeMsgSenderToChatroom.py` in terminal.
   - Scan your QR code to log in.
   - Message got sent like below.
 
@@ -41,7 +42,7 @@ Code are written in *Ubuntu16.04LTS*.
 
 - [x] Attach tuling robot in wechat to achieve auto-reply.
 - [x] Send predefined message to specified chatroom.
-- [ ] Complete sending-on-time function for `msgSenderOnTimeToChatroom.py`.
+- [x] Complete sending-on-time function for `onTimeMsgSenderToChatroom.py`.
 - [ ] Make robot more intelligent, extented to open music player by sending messages using NeteaseMusic API.
 - [ ] Compatile to more file formats like pictures and voice message.
 - [ ] **Save the files sent from `filehelper` automatically.**
