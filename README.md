@@ -21,5 +21,10 @@ Till now I have created two tools in this repo:
   - Written in python2.
   - Passed testing in Linux and Windows.
 
+4. `AutoGCCCaller`
+  - Achieved calling `g++` to compile cppfile, changing outfilename and run corresponding `.out` file in one step, which is calling `autorun.sh filename.cpp`.
+  - A shell script.
+  - Executable in Linux.
+
 ## Samples
 **Samples for each toolset are included in corresponding folders.**
